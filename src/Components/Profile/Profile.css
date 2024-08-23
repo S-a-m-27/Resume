@@ -1,0 +1,160 @@
+/* src/components/Profile.css */
+.profile {
+    height: 2100px;
+    text-align: center; /* Center-align content inside the profile */
+    padding: 20px;
+    background-color:#394457; /* Light background for con border-radius: 8px;trast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /*shadow for better visibility */ 
+  }
+  
+  .profile-image {
+    margin-top: 30px;
+    margin-bottom: 30px; /* Space below the profile image */
+  }
+  
+  .profile-image img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Ensure the height matches the width to create a circle*/
+    border-radius: 50%; /*Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    border: 3px solid #ddd; /* Optional: border around the image */
+  }
+ 
+  .Profile-info {
+    height:1800px;
+    background-color:#394457; /* Background color for the profile section */
+    border-radius: 8px; /* Rounded corners for the section */
+    padding: 10px; /* Padding inside the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+    margin-bottom: 20px; /* Space below the section */
+  }
+  .Name {
+    font-size: 24px; /* Font size for the name */
+    font-weight: bold; /* Bold font weight for the name */
+    color:white; /* Color for the name text */
+    margin-bottom: 50px; /* Remove default margin */
+    line-height: 1.7; /* Space between lines */
+  }
+  .Title {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0;
+  text-align: left;
+  }
+  .Title::after {
+    content: "";
+    display: block;
+    width: 100%; /* Adjust as needed */
+    height: 6px; /* Thickness of the line */
+    background: linear-gradient(to right,white, #f00); /* Gradient color from blue to red */
+    margin-top: 15px;
+    border-radius: 10px; /* Optional: Rounds the corners of the line */
+      }
+    .email-link{
+
+        color: white;
+        text-decoration: none;
+    }
+    .email-link:hover{
+
+        text-decoration: underline;
+    }
+    .profile-info i {
+      color: white; /* Color for icons */
+      margin-right: 10px; /* Space between icon and text */
+    }
+     
+    .profile-info .fas {
+        font-size: 30px; /* Size of the icon */
+    } 
+  .Profile-info p {
+    font-size: 25px; /* Font size for the paragraph text */
+    color: white; /* Color for the paragraph text */
+    line-height: 2.7; /* Space between lines */
+    margin: 0; /* Remove default margin */
+    text-align: left;
+    margin-right: 20px;
+  }
+  .skills {
+    margin-top: 24px;
+    font-size: 25px;
+    color: #ddd;
+    text-align: left;
+    position: relative; /* Ensure the container has a positioning context */
+    padding-bottom: 25px; /* Space for the line below */
+  }
+  .skills h4 {
+    font-size: 24px;
+    position: relative; /* Position relative to allow absolute positioning of the line */
+    margin-bottom: 10px; /* Space between the heading and the line */
+  }
+
+  .skills h4::after {
+    content: ""; /* No content, just styling */
+    display: block;
+    width: 100%; /* Full width of the heading */
+    height: 6px; /* Thickness of the line */
+    background: linear-gradient(to right, white, red); /* Gradient color example */
+    position: absolute; /* Position the line absolutely */
+    bottom: -20px; /* Position the line below the heading */
+    left: 0; /* Align to the left */
+    border-radius: 5px; /* Optional: Rounded corners for the line */
+      }
+  
+  .skills ul {
+    list-style-type: none; /* Remove default list styling */
+   
+   
+  }
+  .skills li {
+
+    font-size: 23px;
+    line-height: 0.000001;
+    padding: 20px 0;
+    margin-bottom: -20px;
+    margin-top: 30px;
+  }
+  .Languages {
+    margin-top: 20px;
+    font-size: 23px;
+    color: #ddd;
+    text-align: left;
+    position: relative; /* Ensure the container has a positioning context */
+    padding-bottom: 25px; 
+  }
+  .Languages h5{
+    position: relative; /* Position relative to allow absolute positioning of the line */
+    margin-top: 30px; 
+    font-size: 24px;
+
+  }
+  
+
+  .Languages h5::after{
+    content: ""; /* No content, just styling */
+    display: block;
+    width: 100%; /* Full width of the heading */
+    height: 6px; /* Thickness of the line */
+    background: linear-gradient(to right, white, red); /* Gradient color example */
+    position: relative; /* Position the line absolutely */
+    bottom: -15px; /* Position the line below the heading */
+    left: 0; /* Align to the left */
+    border-radius: 5px; /* Optional: Rounded corners for the line */
+    margin-bottom: -15px;
+  }
+  .Languages ul {
+    /* Remove default list styling */
+    padding: 0px; /* Remove default padding */
+    margin-left: 10px; /* Remove default margin */
+    margin-top: -20px;
+  }
+  .Languages li {
+    font-size: 23px;
+    line-height: 0.000001;
+    padding: 20px 0;
+    margin-bottom: -20px;
+    margin-top: 50px;
+  }

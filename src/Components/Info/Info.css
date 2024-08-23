@@ -1,0 +1,61 @@
+.Summary{
+    position: relative;
+    margin-top: 40px;
+    font-size: 37px;/*Size for default summary tags or classes*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Styling for paragraph p1*/
+.Summary p1{
+    padding: 20px;
+    font-size: 20px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Styling for heading h6*/
+.Summary h6{
+    font-size: 25px;
+    margin-top: 2px;
+    padding: 20px;
+    text-decoration: underline;
+
+}
+/*Styling for heading h3*/
+.Summary h3{
+
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 20px;
+}  
+/*Styling for heading h5*/ 
+.Summary h5{
+    position: relative;
+    padding: 20px;
+    margin-bottom: -7px;
+
+}
+/* Adding and Styling for  Gradient line after heading h5*/ 
+.Summary h5::after{
+
+        content: ""; /* No content, just styling */
+        display: block;
+        width: 100%; /* Full width of the heading */
+        height: 6px; /* Thickness of the line */
+        background: linear-gradient(to right, rgb(236, 202, 202), red); /* Gradient color example */
+        position: absolute; /* Position the line absolutely */
+        bottom: 3px; /* Position the line below the heading */
+        
+        border-radius: 5px; /* Optional: Rounded corners for the line */
+          
+}
+/*Styling for Paragraph p*/ 
+
+.Summary p{
+ 
+    padding: 20px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+
+
+
+  
